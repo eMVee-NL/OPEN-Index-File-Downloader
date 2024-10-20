@@ -3,7 +3,7 @@ Downloads files from an open directory, including subdirectories, to a local mac
 
 
 This bash script was created since I could not download all files recusrively from `https://wordlists-cdn.assetnote.io/data/` while I was working on the book `Hacking APIs` from Corey J. Ball.
-One of the commands was `wget -r --no-parent -R "index.html*" https://wordlists-cdn.assetnote.io/data/ -nH` to download all wordlists locally. Did did not work for me, so I was trying to craft a command to do the same but I failed in that.
+One of the commands was `wget -r --no-parent -R "index.html*" https://wordlists-cdn.assetnote.io/data/ -nH` to download all wordlists locally. This did not work for me, so I was trying to craft a command to do the same but I failed in that.
 
 Therefore I tried to create a bash script to do the same. See screenshots.
 
